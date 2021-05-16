@@ -16,7 +16,7 @@ ReactDOM.render(
       domain={dom}
       clientId={id}
       redirectUri={window.location.origin}
-      catchLocation='localStorage'
+      catchLocation='localstorage'
     >
       <GithubProvider>
         <App />
